@@ -4,6 +4,13 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/InControl*
+ProjectSettings/ProBuilder*
+
+#Ignore all .meta file
+*.meta
+#But not source file with postfix. which is everything but a folder
+!*.*.meta
 
 # Visual Studio cache directory
 .vs/
